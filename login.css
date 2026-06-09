@@ -1,0 +1,57 @@
+form{
+    border:  4px double;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    padding: 30px;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+input{
+    width: 90%;
+    margin-top: 10px;
+    height: 27px;
+    border-style: inset;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+input:hover{
+    background-color: azure;   
+}
+button{
+    position: relative;
+    width: 92%;
+    height: 30px;
+    border-style: inset;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(116, 204, 185);
+}
+button:active{
+    font-size: 20px;
+    background-color: blueviolet;
+}
+div{
+    margin-top: 7px;
+    text-align: center;
+}
+ a:link{
+    color: rgb(23, 198, 252);
+} 
+a:visited{
+    color: aquamarine;
+}

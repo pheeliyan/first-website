@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+   padding: 240px; 
+}
+table{
+    border: 3px double;
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+}
+h4{
+    text-align: center;
+}
