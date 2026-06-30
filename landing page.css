@@ -12,7 +12,7 @@ header, footer{
 }
 footer{
     position:absolute;
-    top: 800px;
+    top: 1200px;
     text-align:center;
     font-size: 22px;
     padding: 9px 0;
@@ -71,45 +71,73 @@ nav ul li a{
 .content .btn:hover{
     background-color: #0056b3;
 }
+/* Contact Section */
+
 #contact{
     padding: 60px;
-    background: #f5f5f5;
+    background-color: #f5f5f5;
 }
+
 #contact h2{
     text-align: center;
     margin-bottom: 40px;
 }
+
 .contact-container{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    align-items: flex-start;
 }
+
 .contact-info{
     flex: 1;
 }
+
+.contact-info h3{
+    margin-bottom: 20px;
+}
+
+.contact-info p{
+    margin-bottom: 15px;
+}
+
 .contact-form{
     flex: 2;
 }
-.contact-form : input,
-.contact-form : textarea{
+
+.contact-form h3{
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea{
     width: 100%;
     padding: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
 }
-.contact-form : textarea{
+
+.contact-form textarea{
     resize: none;
-    height: 50px;
 }
-.contact-form : button{
-    background: blue;
+
+.contact-form button{
+    background-color: blue;
     color: white;
-    padding: 12px 20px;
     border: none;
+    padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
-.contact-form : button:hover{
-    background: darkblue;
+
+.contact-form button:hover{
+    background-color: darkblue;
+}
+
+html{
+    scroll-behavior: smooth;
 }
